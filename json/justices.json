@@ -1,0 +1,47 @@
+[
+    {
+        "full_name": "Clarence Thomas",
+        "name": "thomas",
+        "year_joined": 1991
+    },
+    {
+        "full_name": "John G. Roberts, Jr.",
+        "name": "roberts",
+        "year_joined": 2005
+    },
+    {
+        "full_name": "Samuel A. Alito, Jr.",
+        "name": "alito",
+        "year_joined": 2006
+    },
+    {
+        "full_name": "Sonia Sotomayor",
+        "name": "sotomayor",
+        "year_joined": 2009
+    },
+    {
+        "full_name": "Elena Kagan",
+        "name": "kagan",
+        "year_joined": 2010
+    },
+    {
+        "full_name": "Neil M. Gorsuch",
+        "name": "gorsuch",
+        "year_joined": 2017
+    },
+    {
+        "full_name": "Brett M. Kavanaugh",
+        "name": "kavanaugh",
+        "year_joined": 2018
+    },
+    {
+        "full_name": "Amy Coney Barrett",
+        "name": "barrett",
+        "year_joined": 2020
+    },
+    {
+        "full_name": "Ketanji Brown Jackson",
+        "name": "jackson",
+        "year_joined": 2022
+    }
+]
