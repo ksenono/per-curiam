@@ -1,0 +1,2501 @@
+
+    {
+        "Feature":"chief justice roberts",
+        "Information Gain":0.3670825154
+    }
+
+    {
+        "Feature":"justice roberts delivered",
+        "Information Gain":0.1885059893
+    }
+
+    {
+        "Feature":"roberts delivered opinion",
+        "Information Gain":0.1746859814
+    }
+
+    {
+        "Feature":"justice kagan delivered",
+        "Information Gain":0.1587404978
+    }
+
+    {
+        "Feature":"kagan delivered opinion",
+        "Information Gain":0.1458953467
+    }
+
+    {
+        "Feature":"sotomayor delivered opinion",
+        "Information Gain":0.1409442602
+    }
+
+    {
+        "Feature":"alito delivered opinion",
+        "Information Gain":0.1252120286
+    }
+
+    {
+        "Feature":"justice alito delivered",
+        "Information Gain":0.1202504758
+    }
+
+    {
+        "Feature":"justice thomas delivered",
+        "Information Gain":0.1107810271
+    }
+
+    {
+        "Feature":"justice sotomayor delivered",
+        "Information Gain":0.1058432911
+    }
+
+    {
+        "Feature":"justice roberts justice",
+        "Information Gain":0.1026380675
+    }
+
+    {
+        "Feature":"justice gorsuch delivered",
+        "Information Gain":0.0943195406
+    }
+
+    {
+        "Feature":"justice sotomayor justice",
+        "Information Gain":0.0919034772
+    }
+
+    {
+        "Feature":"justice thomas concurring",
+        "Information Gain":0.0902652866
+    }
+
+    {
+        "Feature":"notice opinion subject",
+        "Information Gain":0.086289089
+    }
+
+    {
+        "Feature":"subject formal revision",
+        "Information Gain":0.0833387491
+    }
+
+    {
+        "Feature":"thomas concurring judgment",
+        "Information Gain":0.0807400983
+    }
+
+    {
+        "Feature":"thomas delivered opinion",
+        "Information Gain":0.0778148706
+    }
+
+    {
+        "Feature":"justice sotomayor concurring",
+        "Information Gain":0.0756949463
+    }
+
+    {
+        "Feature":"requested notify reporter",
+        "Information Gain":0.0748901699
+    }
+
+    {
+        "Feature":"print goes press",
+        "Information Gain":0.074527797
+    }
+
+    {
+        "Feature":"opinion subject formal",
+        "Information Gain":0.0739389063
+    }
+
+    {
+        "Feature":"publication preliminary print",
+        "Information Gain":0.0738768541
+    }
+
+    {
+        "Feature":"readers requested notify",
+        "Information Gain":0.0738497701
+    }
+
+    {
+        "Feature":"kavanaugh delivered opinion",
+        "Information Gain":0.0737744792
+    }
+
+    {
+        "Feature":"court united states",
+        "Information Gain":0.0735766732
+    }
+
+    {
+        "Feature":"justice thomas dissenting",
+        "Information Gain":0.0735648455
+    }
+
+    {
+        "Feature":"revision publication preliminary",
+        "Information Gain":0.0707182261
+    }
+
+    {
+        "Feature":"errors order corrections",
+        "Information Gain":0.0699164502
+    }
+
+    {
+        "Feature":"court united statesno",
+        "Information Gain":0.0692326177
+    }
+
+    {
+        "Feature":"article iii injury",
+        "Information Gain":0.0679685524
+    }
+
+    {
+        "Feature":"preliminary print goes",
+        "Information Gain":0.0670475268
+    }
+
+    {
+        "Feature":"2010 justice alito",
+        "Information Gain":0.066792344
+    }
+
+    {
+        "Feature":"gorsuch delivered opinion",
+        "Information Gain":0.0645927554
+    }
+
+    {
+        "Feature":"20543 typographical formal",
+        "Information Gain":0.0644647771
+    }
+
+    {
+        "Feature":"corrections preliminary print",
+        "Information Gain":0.0638948677
+    }
+
+    {
+        "Feature":"llc 584 ___",
+        "Information Gain":0.0629202926
+    }
+
+    {
+        "Feature":"preliminary print united",
+        "Information Gain":0.0614737166
+    }
+
+    {
+        "Feature":"558 ___ slip",
+        "Information Gain":0.0607559677
+    }
+
+    {
+        "Feature":"thomas concurring join",
+        "Information Gain":0.060448416
+    }
+
+    {
+        "Feature":"lack probable cause",
+        "Information Gain":0.060321333
+    }
+
+    {
+        "Feature":"case proceedings consistent",
+        "Information Gain":0.0599550692
+    }
+
+    {
+        "Feature":"person deprived life",
+        "Information Gain":0.0598642341
+    }
+
+    {
+        "Feature":"traditional equitable principles",
+        "Information Gain":0.0597175177
+    }
+
+    {
+        "Feature":"election commnv wisconsin",
+        "Information Gain":0.0595856888
+    }
+
+    {
+        "Feature":"violation federal law",
+        "Information Gain":0.059395386
+    }
+
+    {
+        "Feature":"typographical formal errors",
+        "Information Gain":0.059084124
+    }
+
+    {
+        "Feature":"formal errors order",
+        "Information Gain":0.0585769138
+    }
+
+    {
+        "Feature":"2017 chief justice",
+        "Information Gain":0.0582032077
+    }
+
+    {
+        "Feature":"2018 justice alito",
+        "Information Gain":0.0581928314
+    }
+
+    {
+        "Feature":"states washington 20543",
+        "Information Gain":0.0580202161
+    }
+
+    {
+        "Feature":"commerce clause jurisprudence",
+        "Information Gain":0.0577761543
+    }
+
+    {
+        "Feature":"west cum supp",
+        "Information Gain":0.0575341227
+    }
+
+    {
+        "Feature":"washington 20543 typographical",
+        "Information Gain":0.0574910543
+    }
+
+    {
+        "Feature":"pending district court",
+        "Information Gain":0.0573670119
+    }
+
+    {
+        "Feature":"strict scrutiny court",
+        "Information Gain":0.0573213455
+    }
+
+    {
+        "Feature":"ninth circuit june",
+        "Information Gain":0.0571349098
+    }
+
+    {
+        "Feature":"justice kavanaugh delivered",
+        "Information Gain":0.0571132323
+    }
+
+    {
+        "Feature":"class iii gaming",
+        "Information Gain":0.0564689027
+    }
+
+    {
+        "Feature":"al asamici curiae",
+        "Information Gain":0.0563281357
+    }
+
+    {
+        "Feature":"federalist 51 349",
+        "Information Gain":0.0561514818
+    }
+
+    {
+        "Feature":"federal judicial power",
+        "Information Gain":0.0561277498
+    }
+
+    {
+        "Feature":"otwithstanding provision law",
+        "Information Gain":0.0559727342
+    }
+
+    {
+        "Feature":"llc et al",
+        "Information Gain":0.0557753022
+    }
+
+    {
+        "Feature":"actual perceived integrity",
+        "Information Gain":0.0557382129
+    }
+
+    {
+        "Feature":"87 eng rep",
+        "Information Gain":0.0556635585
+    }
+
+    {
+        "Feature":"goes press supreme",
+        "Information Gain":0.0553150995
+    }
+
+    {
+        "Feature":"states constitution prohibited",
+        "Information Gain":0.0552231706
+    }
+
+    {
+        "Feature":"cakeshop colorado civil",
+        "Information Gain":0.0545797144
+    }
+
+    {
+        "Feature":"violates article iii",
+        "Information Gain":0.0537302806
+    }
+
+    {
+        "Feature":"561 742 2010",
+        "Information Gain":0.0535927224
+    }
+
+    {
+        "Feature":"granted review case",
+        "Information Gain":0.0532395009
+    }
+
+    {
+        "Feature":"2018 https www",
+        "Information Gain":0.0528764147
+    }
+
+    {
+        "Feature":"cases make clear",
+        "Information Gain":0.0527403413
+    }
+
+    {
+        "Feature":"trial court consider",
+        "Information Gain":0.05271108
+    }
+
+    {
+        "Feature":"fcc 569 290",
+        "Information Gain":0.0526643094
+    }
+
+    {
+        "Feature":"tax withholding forms",
+        "Information Gain":0.0525776513
+    }
+
+    {
+        "Feature":"substantial evidence contained",
+        "Information Gain":0.0523756763
+    }
+
+    {
+        "Feature":"relevant statutory text",
+        "Information Gain":0.0523091645
+    }
+
+    {
+        "Feature":"559 ____ 2010",
+        "Information Gain":0.0522892123
+    }
+
+    {
+        "Feature":"model penal code",
+        "Information Gain":0.0520516898
+    }
+
+    {
+        "Feature":"federal sector provision",
+        "Information Gain":0.0520137465
+    }
+
+    {
+        "Feature":"slip op 51",
+        "Information Gain":0.052011286
+    }
+
+    {
+        "Feature":"reporter decisions supreme",
+        "Information Gain":0.051945084
+    }
+
+    {
+        "Feature":"statesv olano 507",
+        "Information Gain":0.051821197
+    }
+
+    {
+        "Feature":"breyer justice sotomayor",
+        "Information Gain":0.0517008805
+    }
+
+    {
+        "Feature":"delivered opinion court",
+        "Information Gain":0.0515244043
+    }
+
+    {
+        "Feature":"order removal 1252",
+        "Information Gain":0.0512084754
+    }
+
+    {
+        "Feature":"marks brackets omitted",
+        "Information Gain":0.0509491172
+    }
+
+    {
+        "Feature":"amendments warrant requirement",
+        "Information Gain":0.0509369301
+    }
+
+    {
+        "Feature":"prohibited states reserved",
+        "Information Gain":0.0509290489
+    }
+
+    {
+        "Feature":"justice thomas joins",
+        "Information Gain":0.0506446636
+    }
+
+    {
+        "Feature":"states asamicus curiae",
+        "Information Gain":0.0505382802
+    }
+
+    {
+        "Feature":"arbitration act faa",
+        "Information Gain":0.0505153324
+    }
+
+    {
+        "Feature":"collateral review procedures",
+        "Information Gain":0.050252846
+    }
+
+    {
+        "Feature":"excess profits tax",
+        "Information Gain":0.0501368458
+    }
+
+    {
+        "Feature":"alito chief justice",
+        "Information Gain":0.0499059527
+    }
+
+    {
+        "Feature":"reports readers requested",
+        "Information Gain":0.0498384988
+    }
+
+    {
+        "Feature":"takings clause fifth",
+        "Information Gain":0.0494971494
+    }
+
+    {
+        "Feature":"roberts justice scalia",
+        "Information Gain":0.0494483527
+    }
+
+    {
+        "Feature":"submitted jury proved",
+        "Information Gain":0.0494347541
+    }
+
+    {
+        "Feature":"protecting fetal life",
+        "Information Gain":0.049327479
+    }
+
+    {
+        "Feature":"government puerto rico",
+        "Information Gain":0.0492495659
+    }
+
+    {
+        "Feature":"speech privately financed",
+        "Information Gain":0.0492056868
+    }
+
+    {
+        "Feature":"crack cocaine offenses",
+        "Information Gain":0.0491700156
+    }
+
+    {
+        "Feature":"justice alito concurring",
+        "Information Gain":0.0490580518
+    }
+
+    {
+        "Feature":"protection act 1991",
+        "Information Gain":0.0489856031
+    }
+
+    {
+        "Feature":"adoption fourteenth amendment",
+        "Information Gain":0.0489139273
+    }
+
+    {
+        "Feature":"2020 justice gorsuch",
+        "Information Gain":0.0488929398
+    }
+
+    {
+        "Feature":"state court federal",
+        "Information Gain":0.0488692321
+    }
+
+    {
+        "Feature":"1952 jackson concurring",
+        "Information Gain":0.0488345058
+    }
+
+    {
+        "Feature":"chief justice justice",
+        "Information Gain":0.0486648662
+    }
+
+    {
+        "Feature":"justice thomas justice",
+        "Information Gain":0.0485231164
+    }
+
+    {
+        "Feature":"board immigration appeals",
+        "Information Gain":0.048462371
+    }
+
+    {
+        "Feature":"sf85 form 42",
+        "Information Gain":0.0484180898
+    }
+
+    {
+        "Feature":"congress passed president",
+        "Information Gain":0.0483722761
+    }
+
+    {
+        "Feature":"trumpv hawaii 585",
+        "Information Gain":0.048307997
+    }
+
+    {
+        "Feature":"maximum term imprisonment",
+        "Information Gain":0.0482568716
+    }
+
+    {
+        "Feature":"judges inferior officers",
+        "Information Gain":0.0481886304
+    }
+
+    {
+        "Feature":"2019 justice kavanaugh",
+        "Information Gain":0.0479022004
+    }
+
+    {
+        "Feature":"brief united states",
+        "Information Gain":0.0478796912
+    }
+
+    {
+        "Feature":"582 ______ slip",
+        "Information Gain":0.04771069
+    }
+
+    {
+        "Feature":"appeal california second",
+        "Information Gain":0.0476756622
+    }
+
+    {
+        "Feature":"award costs prevailing",
+        "Information Gain":0.047632931
+    }
+
+    {
+        "Feature":"alito justice thomas",
+        "Information Gain":0.0475974691
+    }
+
+    {
+        "Feature":"contributes actual perceived",
+        "Information Gain":0.0475933794
+    }
+
+    {
+        "Feature":"courts decision case",
+        "Information Gain":0.0475849565
+    }
+
+    {
+        "Feature":"state court proceedings",
+        "Information Gain":0.0475308132
+    }
+
+    {
+        "Feature":"congress shall make",
+        "Information Gain":0.0474193779
+    }
+
+    {
+        "Feature":"crimes act does",
+        "Information Gain":0.0473735464
+    }
+
+    {
+        "Feature":"united states washington",
+        "Information Gain":0.0473071624
+    }
+
+    {
+        "Feature":"cal hyatt 587",
+        "Information Gain":0.0472973116
+    }
+
+    {
+        "Feature":"granted certiorari 580",
+        "Information Gain":0.0472813588
+    }
+
+    {
+        "Feature":"judicial review agency",
+        "Information Gain":0.0472695833
+    }
+
+    {
+        "Feature":"___ ___ 2019",
+        "Information Gain":0.0470673976
+    }
+
+    {
+        "Feature":"retirement plans trust",
+        "Information Gain":0.0469391845
+    }
+
+    {
+        "Feature":"commercial activity united",
+        "Information Gain":0.0469243394
+    }
+
+    {
+        "Feature":"decision court appeals",
+        "Information Gain":0.0468975382
+    }
+
+    {
+        "Feature":"point source pollution",
+        "Information Gain":0.046671633
+    }
+
+    {
+        "Feature":"lyons 461 95",
+        "Information Gain":0.046661198
+    }
+
+    {
+        "Feature":"fine exceeding dollars",
+        "Information Gain":0.0466221904
+    }
+
+    {
+        "Feature":"gender sexual orientation",
+        "Information Gain":0.0466149358
+    }
+
+    {
+        "Feature":"___ 2017 slip",
+        "Information Gain":0.046331437
+    }
+
+    {
+        "Feature":"united states reports",
+        "Information Gain":0.0463093736
+    }
+
+    {
+        "Feature":"590 ___ slip",
+        "Information Gain":0.0462738161
+    }
+
+    {
+        "Feature":"indians non indians",
+        "Information Gain":0.0462144349
+    }
+
+    {
+        "Feature":"tr oral arg",
+        "Information Gain":0.0462144034
+    }
+
+    {
+        "Feature":"fourteenth amendment id",
+        "Information Gain":0.0461676172
+    }
+
+    {
+        "Feature":"assn south coast",
+        "Information Gain":0.0460293713
+    }
+
+    {
+        "Feature":"affirm judgment ordered",
+        "Information Gain":0.0460184057
+    }
+
+    {
+        "Feature":"individuals end stage",
+        "Information Gain":0.0460171995
+    }
+
+    {
+        "Feature":"non point source",
+        "Information Gain":0.0459572444
+    }
+
+    {
+        "Feature":"time value money",
+        "Information Gain":0.0458662595
+    }
+
+    {
+        "Feature":"sorna took effect",
+        "Information Gain":0.0458133385
+    }
+
+    {
+        "Feature":"states reports readers",
+        "Information Gain":0.0458018823
+    }
+
+    {
+        "Feature":"alito justice scalia",
+        "Information Gain":0.0457717646
+    }
+
+    {
+        "Feature":"claim processing rules",
+        "Information Gain":0.0457591609
+    }
+
+    {
+        "Feature":"al writ certiorari",
+        "Information Gain":0.0456512492
+    }
+
+    {
+        "Feature":"new york convention",
+        "Information Gain":0.045454059
+    }
+
+    {
+        "Feature":"dissenting denial rehearing",
+        "Information Gain":0.0453595202
+    }
+
+    {
+        "Feature":"ind employment security",
+        "Information Gain":0.0452236936
+    }
+
+    {
+        "Feature":"court appeals federal",
+        "Information Gain":0.0451595092
+    }
+
+    {
+        "Feature":"jubelirer 541 267",
+        "Information Gain":0.0451062107
+    }
+
+    {
+        "Feature":"white prospective jurors",
+        "Information Gain":0.04510042
+    }
+
+    {
+        "Feature":"death great bodily",
+        "Information Gain":0.0448209945
+    }
+
+    {
+        "Feature":"chief justice marshall",
+        "Information Gain":0.0448072604
+    }
+
+    {
+        "Feature":"proximate cause requirement",
+        "Information Gain":0.0447983847
+    }
+
+    {
+        "Feature":"barnhartv sigmon coal",
+        "Information Gain":0.0447396298
+    }
+
+    {
+        "Feature":"article iii courts",
+        "Information Gain":0.0447014248
+    }
+
+    {
+        "Feature":"state local laws",
+        "Information Gain":0.0446828051
+    }
+
+    {
+        "Feature":"crimes committed non",
+        "Information Gain":0.0446258087
+    }
+
+    {
+        "Feature":"violation title vii",
+        "Information Gain":0.0445569383
+    }
+
+    {
+        "Feature":"2012 chief justice",
+        "Information Gain":0.0444575831
+    }
+
+    {
+        "Feature":"fall outside scope",
+        "Information Gain":0.0444351548
+    }
+
+    {
+        "Feature":"public law 280",
+        "Information Gain":0.0443634152
+    }
+
+    {
+        "Feature":"court united states_________________no",
+        "Information Gain":0.0443460682
+    }
+
+    {
+        "Feature":"2018 thomas concurring",
+        "Information Gain":0.0442814779
+    }
+
+    {
+        "Feature":"2009 chief justice",
+        "Information Gain":0.0442503632
+    }
+
+    {
+        "Feature":"conservation units alaska",
+        "Information Gain":0.044243305
+    }
+
+    {
+        "Feature":"common law torts",
+        "Information Gain":0.0441957776
+    }
+
+    {
+        "Feature":"legislative black caucusv",
+        "Information Gain":0.0441289831
+    }
+
+    {
+        "Feature":"traditional tools statutory",
+        "Information Gain":0.0440675689
+    }
+
+    {
+        "Feature":"federal law 2254",
+        "Information Gain":0.0439546591
+    }
+
+    {
+        "Feature":"amendments prohibition cruel",
+        "Information Gain":0.0439423289
+    }
+
+    {
+        "Feature":"separate factual finding",
+        "Information Gain":0.0439266348
+    }
+
+    {
+        "Feature":"york 500 352",
+        "Information Gain":0.04390705
+    }
+
+    {
+        "Feature":"disparate impact theory",
+        "Information Gain":0.0438373411
+    }
+
+    {
+        "Feature":"broudo 544 336",
+        "Information Gain":0.0438328295
+    }
+
+    {
+        "Feature":"alito join dissenting",
+        "Information Gain":0.0437972994
+    }
+
+    {
+        "Feature":"thomas slip op",
+        "Information Gain":0.0437659058
+    }
+
+    {
+        "Feature":"proceed federal court",
+        "Information Gain":0.0437129787
+    }
+
+    {
+        "Feature":"2021 justice alito",
+        "Information Gain":0.0436380383
+    }
+
+    {
+        "Feature":"district court alleging",
+        "Information Gain":0.0434503443
+    }
+
+    {
+        "Feature":"united statesno 05",
+        "Information Gain":0.0433679776
+    }
+
+    {
+        "Feature":"land national park",
+        "Information Gain":0.0432114217
+    }
+
+    {
+        "Feature":"gorsuch justice thomas",
+        "Information Gain":0.0431964152
+    }
+
+    {
+        "Feature":"rossiter ed 1961",
+        "Information Gain":0.043137045
+    }
+
+    {
+        "Feature":"2017 justice kagan",
+        "Information Gain":0.0431028264
+    }
+
+    {
+        "Feature":"intra arterial injection",
+        "Information Gain":0.0430327586
+    }
+
+    {
+        "Feature":"act fiscal year",
+        "Information Gain":0.0430119074
+    }
+
+    {
+        "Feature":"action taken proceeding",
+        "Information Gain":0.0429405292
+    }
+
+    {
+        "Feature":"quotation marks omitted",
+        "Information Gain":0.0427906257
+    }
+
+    {
+        "Feature":"traditional notions fair",
+        "Information Gain":0.0425262713
+    }
+
+    {
+        "Feature":"relevant statutory provisions",
+        "Information Gain":0.0425156039
+    }
+
+    {
+        "Feature":"slip op 1314",
+        "Information Gain":0.0423338109
+    }
+
+    {
+        "Feature":"indavisv county school",
+        "Information Gain":0.0422667238
+    }
+
+    {
+        "Feature":"post opinion sotomayor",
+        "Information Gain":0.0422664648
+    }
+
+    {
+        "Feature":"standing seek relief",
+        "Information Gain":0.0422404169
+    }
+
+    {
+        "Feature":"meaning literal meaning",
+        "Information Gain":0.0421797667
+    }
+
+    {
+        "Feature":"justice alito dissenting",
+        "Information Gain":0.0421451632
+    }
+
+    {
+        "Feature":"royal dutch petroleum",
+        "Information Gain":0.0420623109
+    }
+
+    {
+        "Feature":"notify reporter decisions",
+        "Information Gain":0.0419705859
+    }
+
+    {
+        "Feature":"2006 justice alito",
+        "Information Gain":0.0418640277
+    }
+
+    {
+        "Feature":"code ann 12",
+        "Information Gain":0.0418400005
+    }
+
+    {
+        "Feature":"united states 444",
+        "Information Gain":0.0417844011
+    }
+
+    {
+        "Feature":"example court held",
+        "Information Gain":0.0417794129
+    }
+
+    {
+        "Feature":"strikes black jurors",
+        "Information Gain":0.0417581891
+    }
+
+    {
+        "Feature":"7th ed 1999",
+        "Information Gain":0.04166298
+    }
+
+    {
+        "Feature":"assn oneida herkimer",
+        "Information Gain":0.041614025
+    }
+
+    {
+        "Feature":"claims state courts",
+        "Information Gain":0.0415754939
+    }
+
+    {
+        "Feature":"op thomas concurring",
+        "Information Gain":0.0415311849
+    }
+
+    {
+        "Feature":"debt relief agencies",
+        "Information Gain":0.0413919763
+    }
+
+    {
+        "Feature":"2021 justice gorsuch",
+        "Information Gain":0.0413802745
+    }
+
+    {
+        "Feature":"common law terms",
+        "Information Gain":0.0412817093
+    }
+
+    {
+        "Feature":"2019 justice thomas",
+        "Information Gain":0.0412330419
+    }
+
+    {
+        "Feature":"advice consent senate",
+        "Information Gain":0.0411999054
+    }
+
+    {
+        "Feature":"brief petitioner 16",
+        "Information Gain":0.0411870692
+    }
+
+    {
+        "Feature":"2011 justice sotomayor",
+        "Information Gain":0.0411816886
+    }
+
+    {
+        "Feature":"advisory committees notes",
+        "Information Gain":0.0411517031
+    }
+
+    {
+        "Feature":"hobby lobby 573",
+        "Information Gain":0.0410981449
+    }
+
+    {
+        "Feature":"common law definition",
+        "Information Gain":0.0410722116
+    }
+
+    {
+        "Feature":"administrative law judge",
+        "Information Gain":0.041015583
+    }
+
+    {
+        "Feature":"formal revision publication",
+        "Information Gain":0.040996583
+    }
+
+    {
+        "Feature":"supra ___ slip",
+        "Information Gain":0.0409336779
+    }
+
+    {
+        "Feature":"state owned land",
+        "Information Gain":0.0408332234
+    }
+
+    {
+        "Feature":"judicial decisions contributes",
+        "Information Gain":0.0408054753
+    }
+
+    {
+        "Feature":"mere touch rule",
+        "Information Gain":0.0408016368
+    }
+
+    {
+        "Feature":"llcv concepcion 563",
+        "Information Gain":0.0407925665
+    }
+
+    {
+        "Feature":"district court allowed",
+        "Information Gain":0.0407690626
+    }
+
+    {
+        "Feature":"meaning statutory text",
+        "Information Gain":0.0405870663
+    }
+
+    {
+        "Feature":"meaning act congress",
+        "Information Gain":0.0404808102
+    }
+
+    {
+        "Feature":"ninth circuit july",
+        "Information Gain":0.0403944752
+    }
+
+    {
+        "Feature":"concurring join courts",
+        "Information Gain":0.0403784906
+    }
+
+    {
+        "Feature":"justice kagan justice",
+        "Information Gain":0.0402649541
+    }
+
+    {
+        "Feature":"federal law ante",
+        "Information Gain":0.0402306636
+    }
+
+    {
+        "Feature":"proper cause requirement",
+        "Information Gain":0.0402205862
+    }
+
+    {
+        "Feature":"2020 justice kavanaugh",
+        "Information Gain":0.0401988948
+    }
+
+    {
+        "Feature":"corp 568 371",
+        "Information Gain":0.0401946882
+    }
+
+    {
+        "Feature":"thomas concurring slip",
+        "Information Gain":0.0400938677
+    }
+
+    {
+        "Feature":"court issued order",
+        "Information Gain":0.040076626
+    }
+
+    {
+        "Feature":"press supreme court",
+        "Information Gain":0.0400231757
+    }
+
+    {
+        "Feature":"exercise appellate jurisdiction",
+        "Information Gain":0.0400184394
+    }
+
+    {
+        "Feature":"does apply retroactively",
+        "Information Gain":0.0400014436
+    }
+
+    {
+        "Feature":"substances act csa",
+        "Information Gain":0.0399459309
+    }
+
+    {
+        "Feature":"violation law nations",
+        "Information Gain":0.0399382404
+    }
+
+    {
+        "Feature":"2017 justice alito",
+        "Information Gain":0.0399237419
+    }
+
+    {
+        "Feature":"808 827 1991",
+        "Information Gain":0.0398814334
+    }
+
+    {
+        "Feature":"united states supreme",
+        "Information Gain":0.0398707341
+    }
+
+    {
+        "Feature":"assume sake argument",
+        "Information Gain":0.0398317842
+    }
+
+    {
+        "Feature":"independent expenditure groups",
+        "Information Gain":0.039819966
+    }
+
+    {
+        "Feature":"health care benefits",
+        "Information Gain":0.0398036392
+    }
+
+    {
+        "Feature":"united states vote",
+        "Information Gain":0.0397989221
+    }
+
+    {
+        "Feature":"yorks proper cause",
+        "Information Gain":0.0395470662
+    }
+
+    {
+        "Feature":"clause does provide",
+        "Information Gain":0.0395416882
+    }
+
+    {
+        "Feature":"common law causes",
+        "Information Gain":0.0395362195
+    }
+
+    {
+        "Feature":"injury fairly traceable",
+        "Information Gain":0.0394938999
+    }
+
+    {
+        "Feature":"app brief petitioner",
+        "Information Gain":0.0393578153
+    }
+
+    {
+        "Feature":"courts case law",
+        "Information Gain":0.0393389069
+    }
+
+    {
+        "Feature":"myersv united states",
+        "Information Gain":0.0393264609
+    }
+
+    {
+        "Feature":"sue sued complain",
+        "Information Gain":0.0393175578
+    }
+
+    {
+        "Feature":"107 colum rev",
+        "Information Gain":0.0393043075
+    }
+
+    {
+        "Feature":"23 2016 justice",
+        "Information Gain":0.039267059
+    }
+
+    {
+        "Feature":"kennedy justice alito",
+        "Information Gain":0.0392389448
+    }
+
+    {
+        "Feature":"sav loan assn",
+        "Information Gain":0.0391937148
+    }
+
+    {
+        "Feature":"1997 internal quotation",
+        "Information Gain":0.0391826808
+    }
+
+    {
+        "Feature":"suit proceeding controversy",
+        "Information Gain":0.0391750454
+    }
+
+    {
+        "Feature":"king kerr criminal",
+        "Information Gain":0.0391506041
+    }
+
+    {
+        "Feature":"statutory construction words",
+        "Information Gain":0.0391411361
+    }
+
+    {
+        "Feature":"brennan marshall jj",
+        "Information Gain":0.039109058
+    }
+
+    {
+        "Feature":"asked court appeals",
+        "Information Gain":0.0390394386
+    }
+
+    {
+        "Feature":"order corrections preliminary",
+        "Information Gain":0.0389899482
+    }
+
+    {
+        "Feature":"2020 justice kagan",
+        "Information Gain":0.0388812331
+    }
+
+    {
+        "Feature":"united states 357",
+        "Information Gain":0.0388370157
+    }
+
+    {
+        "Feature":"new international dictionary",
+        "Information Gain":0.0388249526
+    }
+
+    {
+        "Feature":"new cause action",
+        "Information Gain":0.0387359545
+    }
+
+    {
+        "Feature":"393 406 1932",
+        "Information Gain":0.0387145932
+    }
+
+    {
+        "Feature":"jury petitioner guilty",
+        "Information Gain":0.0387021242
+    }
+
+    {
+        "Feature":"law enforcement officers",
+        "Information Gain":0.0386379739
+    }
+
+    {
+        "Feature":"miller kane federal",
+        "Information Gain":0.0385369431
+    }
+
+    {
+        "Feature":"original internal quotation",
+        "Information Gain":0.038478489
+    }
+
+    {
+        "Feature":"fda approved label",
+        "Information Gain":0.038427674
+    }
+
+    {
+        "Feature":"pre emptive effect",
+        "Information Gain":0.0384185793
+    }
+
+    {
+        "Feature":"____ 2008 supreme",
+        "Information Gain":0.0384079169
+    }
+
+    {
+        "Feature":"patent act 1870",
+        "Information Gain":0.038362119
+    }
+
+    {
+        "Feature":"19 2017 justice",
+        "Information Gain":0.0383611192
+    }
+
+    {
+        "Feature":"blue cross blue",
+        "Information Gain":0.0383533878
+    }
+
+    {
+        "Feature":"age discrimination employment",
+        "Information Gain":0.0383385424
+    }
+
+    {
+        "Feature":"year mandatory minimum",
+        "Information Gain":0.0382604593
+    }
+
+    {
+        "Feature":"los angelesv lyons",
+        "Information Gain":0.0382533929
+    }
+
+    {
+        "Feature":"defendants prior conviction",
+        "Information Gain":0.038123924
+    }
+
+    {
+        "Feature":"commissioner social security",
+        "Information Gain":0.0380470389
+    }
+
+    {
+        "Feature":"states indians status",
+        "Information Gain":0.0379902308
+    }
+
+    {
+        "Feature":"state farm mut",
+        "Information Gain":0.0379635947
+    }
+
+    {
+        "Feature":"carried united states",
+        "Information Gain":0.0379557105
+    }
+
+    {
+        "Feature":"2012 justice sotomayor",
+        "Information Gain":0.0378890981
+    }
+
+    {
+        "Feature":"united states fish",
+        "Information Gain":0.0378856311
+    }
+
+    {
+        "Feature":"treaties united states",
+        "Information Gain":0.0378661097
+    }
+
+    {
+        "Feature":"federation blind 487",
+        "Information Gain":0.0378546456
+    }
+
+    {
+        "Feature":"eighth amendment method",
+        "Information Gain":0.0378505807
+    }
+
+    {
+        "Feature":"2013 justice alito",
+        "Information Gain":0.0378470277
+    }
+
+    {
+        "Feature":"class action arbitration",
+        "Information Gain":0.0377882346
+    }
+
+    {
+        "Feature":"court appeals erred",
+        "Information Gain":0.0377878413
+    }
+
+    {
+        "Feature":"conscience people ranked",
+        "Information Gain":0.0377789987
+    }
+
+    {
+        "Feature":"pre emption principles",
+        "Information Gain":0.0377383706
+    }
+
+    {
+        "Feature":"state local law",
+        "Information Gain":0.0376971972
+    }
+
+    {
+        "Feature":"health et al",
+        "Information Gain":0.0376666438
+    }
+
+    {
+        "Feature":"marks omitted applying",
+        "Information Gain":0.0376322437
+    }
+
+    {
+        "Feature":"officers united states",
+        "Information Gain":0.0376094907
+    }
+
+    {
+        "Feature":"cause action based",
+        "Information Gain":0.0375913118
+    }
+
+    {
+        "Feature":"diagnostic statistical manual",
+        "Information Gain":0.0375486094
+    }
+
+    {
+        "Feature":"georgia 408 238",
+        "Information Gain":0.0375419392
+    }
+
+    {
+        "Feature":"payne 501 828",
+        "Information Gain":0.0374327823
+    }
+
+    {
+        "Feature":"understanding status reservation",
+        "Information Gain":0.0374312081
+    }
+
+    {
+        "Feature":"judgment tenth circuit",
+        "Information Gain":0.0374159992
+    }
+
+    {
+        "Feature":"brief petitioner 34",
+        "Information Gain":0.0373607372
+    }
+
+    {
+        "Feature":"court appeals isaffirmed",
+        "Information Gain":0.0372880912
+    }
+
+    {
+        "Feature":"states 464 16",
+        "Information Gain":0.0372290529
+    }
+
+    {
+        "Feature":"united statesv jones",
+        "Information Gain":0.0371189866
+    }
+
+    {
+        "Feature":"black prospective jurors",
+        "Information Gain":0.0371136227
+    }
+
+    {
+        "Feature":"boren 429 190",
+        "Information Gain":0.037095069
+    }
+
+    {
+        "Feature":"case racial discrimination",
+        "Information Gain":0.0370222506
+    }
+
+    {
+        "Feature":"seq 2000 ed",
+        "Information Gain":0.0369533946
+    }
+
+    {
+        "Feature":"state tort suits",
+        "Information Gain":0.0369324419
+    }
+
+    {
+        "Feature":"joins parts ii",
+        "Information Gain":0.0369052984
+    }
+
+    {
+        "Feature":"pregnant quick child",
+        "Information Gain":0.0368763192
+    }
+
+    {
+        "Feature":"states exercise jurisdiction",
+        "Information Gain":0.0368647761
+    }
+
+    {
+        "Feature":"1995 thomas dissenting",
+        "Information Gain":0.0367237927
+    }
+
+    {
+        "Feature":"express view question",
+        "Information Gain":0.0367177616
+    }
+
+    {
+        "Feature":"good moral character",
+        "Information Gain":0.036693425
+    }
+
+    {
+        "Feature":"principal purpose organizations",
+        "Information Gain":0.0366855281
+    }
+
+    {
+        "Feature":"arbitrary capricious standard",
+        "Information Gain":0.0366673192
+    }
+
+    {
+        "Feature":"properand properly limitedrole",
+        "Information Gain":0.0366406118
+    }
+
+    {
+        "Feature":"time rule government",
+        "Information Gain":0.0365845894
+    }
+
+    {
+        "Feature":"parte bakelite corp",
+        "Information Gain":0.03655463
+    }
+
+    {
+        "Feature":"qualified immunity analysis",
+        "Information Gain":0.0365497067
+    }
+
+    {
+        "Feature":"states 389 347",
+        "Information Gain":0.0365436668
+    }
+
+    {
+        "Feature":"travis county latinos",
+        "Information Gain":0.0365198036
+    }
+
+    {
+        "Feature":"reached contrary conclusion",
+        "Information Gain":0.0363775804
+    }
+
+    {
+        "Feature":"justice roberts concurring",
+        "Information Gain":0.0363361139
+    }
+
+    {
+        "Feature":"time ordain establish",
+        "Information Gain":0.0362970442
+    }
+
+    {
+        "Feature":"united states trustee",
+        "Information Gain":0.0362486932
+    }
+
+    {
+        "Feature":"walker 533 167",
+        "Information Gain":0.0362480158
+    }
+
+    {
+        "Feature":"benson 285 22",
+        "Information Gain":0.0362419149
+    }
+
+    {
+        "Feature":"assn garamendi 539",
+        "Information Gain":0.0362373699
+    }
+
+    {
+        "Feature":"court appeals acknowledged",
+        "Information Gain":0.0362045705
+    }
+
+    {
+        "Feature":"natural resourcesv united",
+        "Information Gain":0.0362002509
+    }
+
+    {
+        "Feature":"excessive force claim",
+        "Information Gain":0.0361970606
+    }
+
+    {
+        "Feature":"supreme court inferior",
+        "Information Gain":0.0361218613
+    }
+
+    {
+        "Feature":"print united states",
+        "Information Gain":0.0361072002
+    }
+
+    {
+        "Feature":"discrimination basis race",
+        "Information Gain":0.0360506745
+    }
+
+    {
+        "Feature":"thomas concurring concurring",
+        "Information Gain":0.0360422251
+    }
+
+    {
+        "Feature":"valley citizens council",
+        "Information Gain":0.0359775333
+    }
+
+    {
+        "Feature":"cases federal court",
+        "Information Gain":0.0359723472
+    }
+
+    {
+        "Feature":"332 class members",
+        "Information Gain":0.0358698923
+    }
+
+    {
+        "Feature":"falls outside scope",
+        "Information Gain":0.0358555812
+    }
+
+    {
+        "Feature":"prison litigation reform",
+        "Information Gain":0.0358355185
+    }
+
+    {
+        "Feature":"decision institute inter",
+        "Information Gain":0.0358255855
+    }
+
+    {
+        "Feature":"relevant time period",
+        "Information Gain":0.0357533002
+    }
+
+    {
+        "Feature":"decisions lower courts",
+        "Information Gain":0.0357326551
+    }
+
+    {
+        "Feature":"behalf similarly situated",
+        "Information Gain":0.0357311079
+    }
+
+    {
+        "Feature":"electorate participate political",
+        "Information Gain":0.0357301175
+    }
+
+    {
+        "Feature":"21 2012 justice",
+        "Information Gain":0.0356727444
+    }
+
+    {
+        "Feature":"pair enterprises 489",
+        "Information Gain":0.0356130817
+    }
+
+    {
+        "Feature":"tribes chehalis reservation",
+        "Information Gain":0.0355874487
+    }
+
+    {
+        "Feature":"united statesv gaudin",
+        "Information Gain":0.0355835848
+    }
+
+    {
+        "Feature":"act 1964 42",
+        "Information Gain":0.0354847437
+    }
+
+    {
+        "Feature":"field pre emption",
+        "Information Gain":0.0354827345
+    }
+
+    {
+        "Feature":"accordingly district court",
+        "Information Gain":0.0354623819
+    }
+
+    {
+        "Feature":"founding generation understood",
+        "Information Gain":0.0354400979
+    }
+
+    {
+        "Feature":"state courts opportunity",
+        "Information Gain":0.0354270172
+    }
+
+    {
+        "Feature":"appreciable benefit requirement",
+        "Information Gain":0.0353987658
+    }
+
+    {
+        "Feature":"jury trial right",
+        "Information Gain":0.0353787117
+    }
+
+    {
+        "Feature":"vast majority cases",
+        "Information Gain":0.0352874835
+    }
+
+    {
+        "Feature":"district court findings",
+        "Information Gain":0.0352863649
+    }
+
+    {
+        "Feature":"madison cranch 137",
+        "Information Gain":0.0352824085
+    }
+
+    {
+        "Feature":"generally applicable rules",
+        "Information Gain":0.0352775042
+    }
+
+    {
+        "Feature":"post grant review",
+        "Information Gain":0.035253895
+    }
+
+    {
+        "Feature":"534 19 31",
+        "Information Gain":0.0352496924
+    }
+
+    {
+        "Feature":"review factual challenges",
+        "Information Gain":0.0352344497
+    }
+
+    {
+        "Feature":"guardianship estate keffeler",
+        "Information Gain":0.0352326941
+    }
+
+    {
+        "Feature":"law state law",
+        "Information Gain":0.0352293588
+    }
+
+    {
+        "Feature":"courts case file",
+        "Information Gain":0.0351757193
+    }
+
+    {
+        "Feature":"inex parte young",
+        "Information Gain":0.0351438887
+    }
+
+    {
+        "Feature":"oversight management board",
+        "Information Gain":0.0351434586
+    }
+
+    {
+        "Feature":"united states 328",
+        "Information Gain":0.0351405184
+    }
+
+    {
+        "Feature":"available judicial proceedings",
+        "Information Gain":0.0350503343
+    }
+
+    {
+        "Feature":"justice kavanaugh concurring",
+        "Information Gain":0.0350468385
+    }
+
+    {
+        "Feature":"491 781 791",
+        "Information Gain":0.0350170683
+    }
+
+    {
+        "Feature":"transportationv association american",
+        "Information Gain":0.0350144781
+    }
+
+    {
+        "Feature":"california law does",
+        "Information Gain":0.035008812
+    }
+
+    {
+        "Feature":"unlawfully united states",
+        "Information Gain":0.0349755023
+    }
+
+    {
+        "Feature":"2012 justice thomas",
+        "Information Gain":0.0349314547
+    }
+
+    {
+        "Feature":"sixth amendments confrontation",
+        "Information Gain":0.0349012037
+    }
+
+    {
+        "Feature":"ante 13 internal",
+        "Information Gain":0.0348871686
+    }
+
+    {
+        "Feature":"national environmental policy",
+        "Information Gain":0.0348706742
+    }
+
+    {
+        "Feature":"judgment united states",
+        "Information Gain":0.0348540245
+    }
+
+    {
+        "Feature":"pattersonv mclean credit",
+        "Information Gain":0.0348161637
+    }
+
+    {
+        "Feature":"ginsburg justice kagan",
+        "Information Gain":0.0348004985
+    }
+
+    {
+        "Feature":"hendersonv shinseki 562",
+        "Information Gain":0.0347858928
+    }
+
+    {
+        "Feature":"alabama supreme court",
+        "Information Gain":0.0347688906
+    }
+
+    {
+        "Feature":"social security benefits",
+        "Information Gain":0.0347670705
+    }
+
+    {
+        "Feature":"award reasonable attorneys",
+        "Information Gain":0.0347542262
+    }
+
+    {
+        "Feature":"alabama 575 ___",
+        "Information Gain":0.0347403783
+    }
+
+    {
+        "Feature":"equitable estoppel doctrines",
+        "Information Gain":0.0347370899
+    }
+
+    {
+        "Feature":"idealized ordinary case",
+        "Information Gain":0.0347125709
+    }
+
+    {
+        "Feature":"562 ___ slip",
+        "Information Gain":0.0346447663
+    }
+
+    {
+        "Feature":"service wilderness society",
+        "Information Gain":0.0345877367
+    }
+
+    {
+        "Feature":"non core proceedings",
+        "Information Gain":0.0345372699
+    }
+
+    {
+        "Feature":"pursuit fleeing suspect",
+        "Information Gain":0.0345366591
+    }
+
+    {
+        "Feature":"common law history",
+        "Information Gain":0.0345062483
+    }
+
+    {
+        "Feature":"swint 456 273",
+        "Information Gain":0.0345002684
+    }
+
+    {
+        "Feature":"reasonable probability different",
+        "Information Gain":0.0344362052
+    }
+
+    {
+        "Feature":"indian fee land",
+        "Information Gain":0.0344102931
+    }
+
+    {
+        "Feature":"la app cir",
+        "Information Gain":0.0343957079
+    }
+
+    {
+        "Feature":"imposing death penalty",
+        "Information Gain":0.0343552775
+    }
+
+    {
+        "Feature":"burglary arson extortion",
+        "Information Gain":0.0343371436
+    }
+
+    {
+        "Feature":"matters public concern",
+        "Information Gain":0.0342630332
+    }
+
+    {
+        "Feature":"law enforcement compelling",
+        "Information Gain":0.0342540698
+    }
+
+    {
+        "Feature":"rules professional conduct",
+        "Information Gain":0.0342157064
+    }
+
+    {
+        "Feature":"rule crim proc",
+        "Information Gain":0.0342068669
+    }
+
+    {
+        "Feature":"core private rights",
+        "Information Gain":0.0341991581
+    }
+
+    {
+        "Feature":"sovereign immunity canon",
+        "Information Gain":0.0341577283
+    }
+
+    {
+        "Feature":"2018 justice gorsuch",
+        "Information Gain":0.0341499108
+    }
+
+    {
+        "Feature":"district new york",
+        "Information Gain":0.0341403746
+    }
+
+    {
+        "Feature":"necessary services rendered",
+        "Information Gain":0.0341272466
+    }
+
+    {
+        "Feature":"oral arg 16",
+        "Information Gain":0.0341218591
+    }
+
+    {
+        "Feature":"2020 justice sotomayor",
+        "Information Gain":0.0341039774
+    }
+
+    {
+        "Feature":"united statesv sineneng",
+        "Information Gain":0.0340927272
+    }
+
+    {
+        "Feature":"atkinsv virginia 536",
+        "Information Gain":0.0340209136
+    }
+
+    {
+        "Feature":"handbook federal indian",
+        "Information Gain":0.0340009501
+    }
+
+    {
+        "Feature":"term imprisonment based",
+        "Information Gain":0.0339658045
+    }
+
+    {
+        "Feature":"california 395 752",
+        "Information Gain":0.0339656237
+    }
+
+    {
+        "Feature":"project et al",
+        "Information Gain":0.0339316684
+    }
+
+    {
+        "Feature":"circuit reversed holding",
+        "Information Gain":0.0339134193
+    }
+
+    {
+        "Feature":"postsecondary ed expense",
+        "Information Gain":0.0338944057
+    }
+
+    {
+        "Feature":"case district court",
+        "Information Gain":0.0338899255
+    }
+
+    {
+        "Feature":"des moines independent",
+        "Information Gain":0.0338797689
+    }
+
+    {
+        "Feature":"alvarez 549 183",
+        "Information Gain":0.0338665468
+    }
+
+    {
+        "Feature":"race based assignments",
+        "Information Gain":0.0338547923
+    }
+
+    {
+        "Feature":"brief petitioner 45",
+        "Information Gain":0.0338462897
+    }
+
+    {
+        "Feature":"required state law",
+        "Information Gain":0.0338098242
+    }
+
+    {
+        "Feature":"slip op 2223",
+        "Information Gain":0.0337508656
+    }
+
+    {
+        "Feature":"alloyd 513 561",
+        "Information Gain":0.0337264725
+    }
+
+    {
+        "Feature":"319 624 1943",
+        "Information Gain":0.0337036161
+    }
+
+    {
+        "Feature":"group life insurance",
+        "Information Gain":0.0336990328
+    }
+
+    {
+        "Feature":"alito joins concurring",
+        "Information Gain":0.0336493369
+    }
+
+    {
+        "Feature":"incurred litigating issues",
+        "Information Gain":0.0336398542
+    }
+
+    {
+        "Feature":"california supreme court",
+        "Information Gain":0.033639383
+    }
+
+    {
+        "Feature":"general trust relationship",
+        "Information Gain":0.0336319172
+    }
+
+    {
+        "Feature":"turner broadcasting fcc",
+        "Information Gain":0.0336297445
+    }
+
+    {
+        "Feature":"466 supp 2d",
+        "Information Gain":0.0336247904
+    }
+
+    {
+        "Feature":"sotomayor justice ginsburg",
+        "Information Gain":0.0336228108
+    }
+
+    {
+        "Feature":"5th ed 2010",
+        "Information Gain":0.0336215525
+    }
+
+    {
+        "Feature":"educational vocational training",
+        "Information Gain":0.0335971162
+    }
+
+    {
+        "Feature":"justice alito chief",
+        "Information Gain":0.0335842569
+    }
+
+    {
+        "Feature":"class collective action",
+        "Information Gain":0.0335774768
+    }
+
+    {
+        "Feature":"constitution does permit",
+        "Information Gain":0.033550189
+    }
+
+    {
+        "Feature":"writings james madison",
+        "Information Gain":0.0335416614
+    }
+
+    {
+        "Feature":"public convenience necessity",
+        "Information Gain":0.0335376489
+    }
+
+    {
+        "Feature":"american oil 499",
+        "Information Gain":0.0335310527
+    }
+
+    {
+        "Feature":"parole commnv geraghty",
+        "Information Gain":0.0335207478
+    }
+
+    {
+        "Feature":"justice kavanaugh join",
+        "Information Gain":0.0335187635
+    }
+
+    {
+        "Feature":"notre dame rev",
+        "Information Gain":0.0335169514
+    }
+
+    {
+        "Feature":"exercise religion burden",
+        "Information Gain":0.0335082374
+    }
+
+    {
+        "Feature":"affirm court appeals",
+        "Information Gain":0.0334817519
+    }
+
+    {
+        "Feature":"pena 515 200",
+        "Information Gain":0.0334801639
+    }
+
+    {
+        "Feature":"code crim proc",
+        "Information Gain":0.0334570523
+    }
+
+    {
+        "Feature":"write separately reiterate",
+        "Information Gain":0.0334499115
+    }
+
+    {
+        "Feature":"llcv greenes energy",
+        "Information Gain":0.0334382861
+    }
+
+    {
+        "Feature":"2021 justice kavanaugh",
+        "Information Gain":0.0334377419
+    }
+
+    {
+        "Feature":"judgment exceed 25",
+        "Information Gain":0.0334147593
+    }
+
+    {
+        "Feature":"hale pleas crown",
+        "Information Gain":0.0334074991
+    }
+
+    {
+        "Feature":"2016 chief justice",
+        "Information Gain":0.0333586767
+    }
+
+    {
+        "Feature":"seventh circuit reversed",
+        "Information Gain":0.0333431364
+    }
+
+    {
+        "Feature":"court southern district",
+        "Information Gain":0.0332986165
+    }
+
+    {
+        "Feature":"humanitarian law project",
+        "Information Gain":0.0332976084
+    }
+
+    {
+        "Feature":"scheme artifice defraud",
+        "Information Gain":0.0332837259
+    }
+
+    {
+        "Feature":"agency discretion law",
+        "Information Gain":0.033245739
+    }
+
+    {
+        "Feature":"fifth amendment prohibits",
+        "Information Gain":0.0331813685
+    }
+
+    {
+        "Feature":"justice alito joins",
+        "Information Gain":0.0331806297
+    }
+
+    {
+        "Feature":"institute inter partes",
+        "Information Gain":0.0331722137
+    }
+
+    {
+        "Feature":"judgment state court",
+        "Information Gain":0.033135801
+    }
+
+    {
+        "Feature":"487 654 1988",
+        "Information Gain":0.0331224735
+    }
+
+    {
+        "Feature":"court discretion award",
+        "Information Gain":0.0331174352
+    }
+
+    {
+        "Feature":"country habitual residence",
+        "Information Gain":0.0331040676
+    }
+
+    {
+        "Feature":"unreasonable searches seizures",
+        "Information Gain":0.0331035702
+    }
+
+    {
+        "Feature":"justice gorsuch justice",
+        "Information Gain":0.0330983889
+    }
+
+    {
+        "Feature":"rule civ proc",
+        "Information Gain":0.0330949603
+    }
+
+    {
+        "Feature":"free speech clauses",
+        "Information Gain":0.033053451
+    }
+
+    {
+        "Feature":"williams 507 680",
+        "Information Gain":0.0330450079
+    }
+
