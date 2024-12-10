@@ -42,8 +42,6 @@ class Opinion:
 with open("/Users/danil_sibgatullin/6.8611/per-curiam/json/justices.json", "r") as file:
     justices = json.load(file)
 serving_justices = {justice['name'] for justice in justices}
-    
-
 
 def get_cases_url(year: int) -> List[Case]:
     url = f"{by_year_url}/{year}.html"
@@ -88,7 +86,7 @@ def parse_case_opinions(case: Case) -> List[Opinion]:
         element_text = section.get_text(strip=True)
         author = element_text.split('(')[-1].replace(')', '').strip().lower()
 
-        if not author in serving_justices:  
+        if author != 'per curiam':
             continue
 
         tab = soup.find_all('div', id=section['href'][1:])[0]
