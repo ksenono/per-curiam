@@ -10,6 +10,7 @@ from sklearn.feature_selection import mutual_info_classif
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score
 from sklearn.utils.class_weight import compute_class_weight
+from collections import Counter
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -44,6 +45,19 @@ def load_data(jsonl_file):
             completions.append(data['author'])
     return prompts, completions
 
+def normalize_by_author(prompts, labels, max_samples_per_author=100):
+    data = list(zip(prompts, labels))
+    normalized_data = []
+    counter = Counter(labels)
+
+    for author in set(labels):
+        author_data = [d for d in data if d[1] == author]
+        normalized_data.extend(author_data[:max_samples_per_author])  # Limit to max samples
+
+    normalized_prompts, normalized_labels = zip(*normalized_data)
+    return list(normalized_prompts), list(normalized_labels)
+
+
 def select_features_df_ig(prompts_train, completions_train, ngram_range=(2, 2), top_k=5000):
     vectorizer = CountVectorizer(
         ngram_range=ngram_range,
@@ -63,7 +77,9 @@ def select_features_df_ig(prompts_train, completions_train, ngram_range=(2, 2), 
     return X_train_selected, top_indices, selected_features, selected_scores, vectorizer
 
 def train_and_evaluate(model, train_loader, val_loader, class_weights, num_epochs=10, lr=0.01):
-    criterion = nn.CrossEntropyLoss(weight=class_weights)
+    
+    class_weights_tensor = torch.tensor(class_weights, dtype=torch.float32).to(device)
+    criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
     optimizer = optim.Adam(model.parameters(), lr=lr)
 
     for epoch in range(num_epochs):
@@ -106,6 +122,7 @@ def main(jsonl_file, ngram_range=(2, 2), top_k=5000, save_dir='./model_weights.p
     prompts_train, prompts_val = prompts[:split_point], prompts[split_point:]
     completions_train, completions_val = completions_encoded[:split_point], completions_encoded[split_point:]
 
+    prompts_train, completions_train = normalize_by_author(prompts_train, completions_train)
     print("Selecting features...")
     X_train_selected, top_indices, selected_features, selected_scores, vectorizer = select_features_df_ig(prompts_train, completions_train, ngram_range=ngram_range, top_k=top_k)
     X_train_selected = X_train_selected.toarray()

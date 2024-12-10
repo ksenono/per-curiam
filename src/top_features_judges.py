@@ -8,17 +8,15 @@ from tabulate import tabulate
 
 
 def load_data(opinions_file):
-    date_to_prompts = dict()  
+    date_to_prompts = []
     with open(opinions_file, 'r') as file:
         for line in file:
             try:
-                data = json.loads(line.strip())
-                date = data.get('year')  
+                data = json.loads(line.strip()) 
                 prompt = data.get('text')  
                 author = data.get('author') 
+                date_to_prompts.append([author, prompt])
 
-                if date and prompt: 
-                    date_to_prompts.setdefault(date, []).append([prompt, author] ) 
 
             except json.JSONDecodeError as e:
                 print(f"Error decoding JSON line: {line}\n{e}")
@@ -50,43 +48,24 @@ def get_top_features_by_author(prompts, labels, top_k=1, ngram_range=(1, 1)):
 
     return top_features_by_author
 
-# def plot_top_words_heatmap(feature_df):
-#     """
-#     Plot a heatmap showing top words used by authors across years.
-
-#     Args:
-#         feature_df: A DataFrame with columns ["Date", "Author", "Best features"]
-#     """
-#     # Step 1: Prepare Data for the Heatmap
-#     exploded_df = feature_df.explode("Best features")
-#     word_counts = exploded_df.groupby(["Date", "Best features"]).size().reset_index(name='Count')
-#     heatmap_data = word_counts.pivot_table(index="Date", columns="Best features", values="Count", fill_value=0)
-
-#     # Step 2: Plot the Heatmap (handles float or int formats)
-#     plt.figure(figsize=(12, 8))
-#     sns.heatmap(heatmap_data, cmap="YlGnBu", annot=True, fmt=".2f", linewidths=0.5)
-#     plt.title("Top Words Usage Across Years")
-#     plt.xlabel("Top Words")
-#     plt.ylabel("Year")
-#     plt.show()
-
 
 def main(jsonl_file):
 
     date_to_prompts = load_data(jsonl_file)
     
     rows = []
+    labels = []
+    prompts = []
+    for author, prompt in date_to_prompts:
+        labels.append(author)
+        prompts.append(prompt)
 
-    for date in date_to_prompts.keys():
-        prompts, labels = zip(*date_to_prompts[date])
-        feature_names = get_top_features_by_author(prompts, labels, top_k=3, ngram_range=(3, 3))
-        print(date, set(labels))
-        for author in set(labels):
-            if author in feature_names:
-                rows.append({"Date": date, "Author": author, "Best features": feature_names[author]})
+    feature_names = get_top_features_by_author(prompts, labels, top_k=10, ngram_range=(1, 1)) 
+    for author in set(labels): 
+        rows.append({"Author": author, "Best features": feature_names[author]})
 
     feature_df = pd.DataFrame(rows)
-    feature_df.sort_values(by=["Author", "Date"], ascending=[True, True], inplace=True)
+    feature_df.sort_values(by=["Author"], ascending=[True], inplace=True)
     feature_df.reset_index(drop=True, inplace=True) 
 
     return feature_df
@@ -96,7 +75,7 @@ jsonl_file = '/Users/tosha/Documents/per-curiam/data/cleaned_processed.jsonl'
 feature_df = main(jsonl_file)
 output_file = '/Users/tosha/Documents/per-curiam/json/features_by_year.json'
 feature_df.to_json(output_file, orient='records', lines=True, indent=4)
-# print(tabulate(feature_df, headers="keys", tablefmt="grid"))
+print(tabulate(feature_df, headers="keys", tablefmt="grid"))
 # plot_top_words_heatmap(feature_df)
 
 print(f"Selected features saved to {output_file}")
