@@ -1,27 +1,25 @@
-import os
 import json
-import numpy as np
 import torch
 from torch import nn
 from torch.utils.data import DataLoader, Dataset
+import argparse
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_selection import mutual_info_classif
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import accuracy_score
+import numpy as np
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+# Define the dataset class
 class TextDataset(Dataset):
-    def __init__(self, prompts, labels):
+    def __init__(self, prompts):
         self.prompts = prompts
-        self.labels = labels
     
     def __len__(self):
         return len(self.prompts)
     
     def __getitem__(self, idx):
-        return self.prompts[idx], self.labels[idx]
+        return self.prompts[idx]
 
+# Define the neural network model architecture
 class SimpleNN(nn.Module):
     def __init__(self, input_dim, output_dim):
         super(SimpleNN, self).__init__()
@@ -29,109 +27,84 @@ class SimpleNN(nn.Module):
         self.fc2 = nn.Linear(100, output_dim)
     
     def forward(self, x):
-        x = F.relu(self.fc1(x))
+        x = torch.relu(self.fc1(x))
         x = self.fc2(x)
         return x
 
-# Load data from the JSONL file
+# Load the data from JSONL file
 def load_data(jsonl_file):
-    prompts, completions = [], []
+    prompts, names = [], []
     with open(jsonl_file, 'r') as file:
         for line in file:
             data = json.loads(line.strip())
             prompts.append(data['text'])
-            completions.append(data['author'])
-    return prompts, completions
+            if 'filename' in names:
+                names.append(data['filename'])
+            else:
+                names.append('')
+    return prompts, names
 
-# Select features using Document Frequency (DF) and Information Gain (IG)
-def select_features_df_ig(prompts_train, completions_train, ngram_range=(2, 2), top_k=5000):
-    vectorizer = CountVectorizer(ngram_range=ngram_range, binary=True, min_df=5, max_df=0.9)
-    X_train = vectorizer.fit_transform(prompts_train)
-    ig_scores = mutual_info_classif(X_train, completions_train, discrete_features=True)
-    top_indices = np.argsort(ig_scores)[-top_k:]
-    X_train_selected = X_train[:, top_indices]
+# Load and set up the vectorizer 
+def setup_vectorizer(train_prompts, ngram_range=(2, 2), top_k=5000):
+    vectorizer = CountVectorizer(
+        ngram_range=ngram_range,
+        binary=True,
+        min_df=1,
+        max_df=1.0
+    )
+    X_train = vectorizer.fit_transform(train_prompts)
+    top_indices = np.argsort(X_train.sum(axis=0)).A1[-top_k:]
+    return vectorizer, top_indices
 
-    feature_names = np.array(vectorizer.get_feature_names_out())
-    selected_features = feature_names[top_indices]
-
-    return X_train_selected, top_indices, selected_features, vectorizer
-
-# Load model weights and evaluate
-def evaluate_model(model, val_loader):
-    model.eval()
-    correct = 0
-    with torch.no_grad():
-        for inputs, targets in val_loader:
-            inputs, targets = inputs.to(device), targets.to(device)
-            
-            outputs = model(inputs)
-            predictions = outputs.argmax(dim=1)
-            correct += (predictions == targets).sum().item()
+# Main process for handling inference
+def perform_inference(jsonl_file, model_weights_path, ngram_size, num_classes=8, top_k=5000):
+    # Load and process the dataset
+    prompts, names = load_data(jsonl_file)
+    vectorizer_params = {'ngram_range': (ngram_size, ngram_size)}
+    vectorizer, top_indices = setup_vectorizer(prompts, **vectorizer_params)
     
-    val_accuracy = correct / len(val_loader.dataset) * 100
-    return val_accuracy
+    # Vectorize input prompts
+    X_features = vectorizer.transform(prompts)[:, top_indices].toarray()
+    
+    # Verify the number of features matches the expected input dimension
+    assert X_features.shape[1] == top_k, f"Expected {top_k} features but got {X_features.shape[1]}"
+    
+    # Prepare DataLoader
+    dataset = TextDataset(torch.tensor(X_features, dtype=torch.float32))
+    data_loader = DataLoader(dataset, batch_size=64, shuffle=False)
+    
+    # Initialize and load the model
+    model = SimpleNN(input_dim=top_k, output_dim=num_classes).to(device)
+    model.load_state_dict(torch.load(model_weights_path, map_location=device))
 
-def process_folder(folder_path, model_weights_path, ngram_range=(2, 2), top_k=5000, results_file='./results.json'):
-    results = []
-
-    for filename in os.listdir(folder_path):
-        if filename.endswith('.jsonl'):
-            file_path = os.path.join(folder_path, filename)
-            print(f"Processing {file_path}...")
-
-            # Load the data
-            prompts, completions = load_data(file_path)
-
-            # Encode labels
-            label_encoder = LabelEncoder()
-            completions_encoded = label_encoder.fit_transform(completions)
-
-            # Split the dataset into training and validation
-            split_ratio = 0.8
-            split_point = int(split_ratio * len(prompts))
-            prompts_train, prompts_val = prompts[:split_point], prompts[split_point:]
-            completions_train, completions_val = completions_encoded[:split_point], completions_encoded[split_point:]
-
-            # Perform feature selection
-            X_train_selected, top_indices, selected_features, vectorizer = select_features_df_ig(
-                prompts_train, completions_train, ngram_range=ngram_range, top_k=top_k)
-            X_train_selected = X_train_selected.toarray()
-
-            # Transform validation data
-            X_val = vectorizer.transform(prompts_val)[:, top_indices].toarray()
-
-            # Convert data to PyTorch datasets
-            val_dataset = TextDataset(torch.tensor(X_val, dtype=torch.float32),
-                                      torch.tensor(completions_val, dtype=torch.long))
-
-            # Create data loaders
-            val_loader = DataLoader(val_dataset, batch_size=64, shuffle=False)
-
-            # Initialize model and load weights
-            model = SimpleNN(input_dim=X_train_selected.shape[1], output_dim=len(label_encoder.classes_)).to(device)
-            model.load_state_dict(torch.load(model_weights_path))
-
-            # Evaluate the model
-            val_accuracy = evaluate_model(model, val_loader)
-
-            # Add result to the list
-            results.append({
-                'file': filename,
-                'val_accuracy': val_accuracy,
-                'num_classes': len(label_encoder.classes_)
-            })
-
-    # Save results to a JSON file
-    with open(results_file, 'w') as f:
-        json.dump(results, f, indent=4)
-    print(f"Results saved to {results_file}")
+    # Evaluate model on data
+    model.eval()
+    predictions = []
+    with torch.no_grad():
+        for inputs in data_loader:
+            inputs = inputs.to(device)
+            outputs = model(inputs)
+            batch_predictions = outputs.argmax(dim=1).cpu().numpy()
+            predictions.extend(batch_predictions)
+    
+    return [{'pred': pred, 'name': name} for pred, name in zip(predictions, names)]
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Run model on all JSONL files in a folder using existing weights.')
-    parser.add_argument('folder', type=str, help='The folder containing JSONL files.')
-    parser.add_argument('-w', type=str, required=True, help='Path to the file containing the model weights')
-    parser.add_argument('-n', type=int, required=True, help='context size')
-    parser.add_argument('-s', type=str, default='./results.json', help='File to save the results')
+    parser = argparse.ArgumentParser(description='N-gram model inference using PyTorch')
+    parser.add_argument('jsonl', type=str, help='The JSONL input file')
+    parser.add_argument('-w', type=str, required=True, help='Path to the model weights file')
+    parser.add_argument('-n', type=int, required=True, help='Size of the n-grams to use')
+    parser.add_argument('-c', type=int, default=8, help='Number of output classes')
+    parser.add_argument('-r', type=str, default='./results.json', help='File to save the results')
     
     args = parser.parse_args()
-    process_folder(args.folder, args.w, (args.n, args.n), results_file=args.s)
+    
+    # Perform inference and convert predictions to a list of Python integers
+    output = perform_inference(args.jsonl, args.w, args.n, num_classes=args.c)
+    predictions = [{'pred': int(entry['pred']), 'name': entry['name']} for entry in output]  # Convert from numpy int64 to Python int
+    
+    # Save predictions to an output file
+    with open(args.r, 'w') as f:
+        json.dump(predictions, f)
+
+    print(f"Results saved to {args.r}.")
